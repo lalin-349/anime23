@@ -40,25 +40,6 @@
 
 
 
-<!--<video id="videoPlayer" width="320" height="240" controls>
-  <source src="movie1.mp4" type="video/mp4">
-  Your browser does not Contact the video tag.
-<video> -->
-
-
-<script>
-  function changeVideo(movie) {
-    var source = document.getElementById('source');
-    source.src = movie;
-    var player = document.getElementById('main-video');
-    player.load();
-    player.play();
-  }
-  </script>
-
-
-
-
  <div class="LAnime3">
           <div class="property-three">
             <div class="content-2">
@@ -164,6 +145,26 @@
                 </div>
                 </div>
               </div> 
+
+
+
+              
+<!--<video id="videoPlayer" width="320" height="240" controls>
+  <source src="movie1.mp4" type="video/mp4">
+  Your browser does not Contact the video tag.
+<video> -->
+
+
+  <script>
+    function changeVideo(movie) {
+      var source = document.getElementById('source');
+      source.src = movie;
+      var player = document.getElementById('main-video');
+      player.load();
+      player.play();
+    }
+    </script>
+  
 
               
         </body>
