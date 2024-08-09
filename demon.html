@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="style2copy.css" />
+    <title>LAnime.to/warch</title>
+    <link href='https://fonts.googleapis.com/css?family=Fugaz One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Jersey 20' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sedgwick Ave Display' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+    <!--header-->
+    <div class="LAnime2">
+      <div class="bubble">
+        <div class="bubble-container">
+          <div class="nav-links">
+          <a href="index.html"> <div class="nav-link"><div class="nav-label">Home</div></div></a>
+          <a href="movies.html"><div class="nav-link"><div class="nav-label">Browse</div></div></a>
+            <div class="nav-link"><div class="nav-label">Genres</div></div>
+          </div>
+          <div class="nav-link">
+            <div class="label"><div class="brand-name">LAnime</div></div>
+            </div>
+          <div class="nav-links">
+            <div class="nav-link"><div class="nav-label">About Us</div></div>
+            <div class="nav-link"><div class="nav-label">Cinema</div></div>
+            <a href="contact.html"><div class="nav-link"><div class="nav-label">Contact</div></div></a>
+          </div>
+        </div>
+        </div>
+        </div>
+
+        <!--body-->
+        <video id="main-video" controls>
+          <source id="source" src="/video/demonslayer.mp4">
+        </video>
+
+
+
+<!--<video id="videoPlayer" width="320" height="240" controls>
+  <source src="movie1.mp4" type="video/mp4">
+  Your browser does not Contact the video tag.
+</video> -->
+
+
+<script>
+  function changeVideo(movie) {
+    var source = document.getElementById('source');
+    source.src = movie;
+    var player = document.getElementById('main-video');
+    player.load();
+    player.play();
+  }
+  </script>
+
+
+
+
+ <div class="LAnime3">
+          <div class="property-three">
+            <div class="content-2">
+              <div class="heading-container">
+                <div class="image-gallery-title">Popular Movies</div>
+                <p class="text">Explore top-rated movies and find your next favorite!</p>
+              </div>
+              <div class="image-gallery">
+                <div class="images-content">
+
+                 <div class="box">
+                  <img class="image-1" src="img2/image-1.jpg" /> 
+                  <button onclick="changeVideo('video/onepiece.mp4')" class="image1text">
+                    <span class="original">One piece</span>
+                    <span class="hovered">Watch</span>
+                  </button>
+                  </div>
+
+                 <div class="box">
+                  <img class="image-2" src="img2/image-2.jpg" />
+                  <button onclick="changeVideo('video/naruto.mp4')" class="image1text">
+                    <span class="original">Naruto</span>
+                    <!-- <a href="" class="hovered">Watch</a> -->
+                    <span class="hovered">Watch</span>
+                  </button>
+                </div>
+
+                 <div class="box">  
+                  <img class="image-3" src="img2/image-3.jpg"/>
+                  <button onclick="changeVideo('video/demonslayer.mp4')" class="image1text">
+                    <span class="original">Demon slayer</span>
+                    <span class="hovered">Watch</span>
+                  </button>
+                </div>
+
+                  <div class="box">
+                  <img class="image-4" src="img2/image-4.jpg" />
+                  <button onclick="changeVideo('video/jujutsu.mp4')" class="image1text">
+                    <span class="original">Jujutsu kaisen</span>
+                    <span class="hovered">Watch</span>
+                  </button>
+                </div>
+                </div>
+                <div class="banner2">Unlimited Access</div>
+              <div class="banner-down">Get unlimited movies, shows, and more.</div>
+               </div>
+
+               <div class="free-stuff">
+                <div class="free-stuff-images">
+
+                <div class="imag">  
+                  <img src="/img2/player3.jpeg" class="imgs">
+                  <div class="banner10"> HD Streaming</div>
+                  <div class="banner10-title">Watch in HD or even 4K. It's all included.</div>   
+                 </div>
+
+                 <div class="imag">
+                  <img src="/img2/infinity.jpeg" class="imgs">
+                  <div class="banner10"> Multiple Devices</div>
+                  <div class="banner10-title">Enjoy on your TV, laptop, phone, or tablet.</div>   
+                 </div>
+
+
+                 <div class="imag">
+                  <img src="/img2/downable.jpeg" class="imgs">
+                  <div class="banner10"> New Additions</div>
+                  <div class="banner10-title">New movies and series added every week!</div>   
+                 </div>
+
+
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+          
+
+          <!--footer-->
+
+          
+          <div class="type-with-newsletter">
+            <div class="content-2">
+              <div class="list">
+                <a href="index.html" class="list-heading">LAnime</a>
+                <div class="list-link-item">Join the Team</div>
+                <div class="list-link-item">Latest Updates</div>
+              </div>
+              <div class="list">
+                <div class="list-heading">Features</div>
+                <div class="list-link-item">User Reviews</div>
+                <div class="list-link-item">Latest Updates</div>
+              </div>
+              <div class="list">
+                <div class="list-heading">Follow Us</div>
+                <div class="list-link-item">@LAnime</div>
+                <div class="list-link-item">Fan Discussions</div>
+              </div>
+              <div class="list">
+                  <div class="list-heading">Terms of Use</div>
+                  <div class="list-link-item-2">Privacy Policy</div>
+                </div>
+                </div>
+              </div> 
+
+              
+        </body>
+        </html>

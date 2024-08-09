@@ -1,0 +1,509 @@
+* {
+    background-color: #222831;
+    margin:0;
+    padding:0;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+
+
+.LAnime2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #222831;
+  }
+  
+  
+  
+  
+  .bubble .bubble-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 8px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #222831;
+    border-radius: 64px
+  
+  }
+  
+  .bubble .nav-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 0px 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .bubble .nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 8px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+  .bubble .nav-label {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Rubik", Helvetica;
+    font-weight: 600;
+    color: #eeeeee;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    white-space: nowrap;
+    border: 2px solid rgb(51, 49, 49);
+    padding: 6px;
+    border-radius:10px;
+    background-color: black;
+    padding-left: 9px;
+    padding-right:9px;
+  }
+  .bubble .nav-label:hover {
+    color:rgb(40, 201, 171);
+    border:2px solid rgb(40, 201, 171);
+  
+  }
+  
+  .bubble .nav-label {
+    transition: all 1s ease 0s;
+  }
+  
+  .bubble .brand {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+    top: 14px;
+    left: 560px;
+  }
+  
+  .bubble .brand-name {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEE;
+    font-family: "Sedgwick Ave Display";
+    font-size:2.5vw;
+    line-height: 208%; /* 49.92px */
+    margin-left: 90%;
+  }
+    
+  
+
+  
+  
+  /*task bar ended*/
+  .movies .main-body {
+    align-items: center;
+    position: relative;
+    width: 84vw;
+    height: 80vh;
+    margin-left: 8%;
+    border-radius: 30px;
+}
+
+.movies .homepic {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    overflow: hidden; /* This will keep the border-radius of the shadow in sync with the image */
+    position: relative; /* This is needed for the pseudo-element to work */
+}
+
+.movies .homepic::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 400px 0px 10000px 0px#000000;
+    opacity: 90%;
+}
+
+.movies .homepic img {
+    width: 100%;
+    height: 100%;
+    display: block; /* This will remove any unwanted space around the image */
+}
+
+.movies .homepic .name-dash {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-470%, -270%);
+    color: rgb(40, 201, 171); 
+    font-size: 1.5vw; 
+    z-index: 1;
+    background-color: transparent;
+    font-family: 'Fugaz One';
+}
+
+.movies .name-name {
+    position: absolute;
+    top: 55%;
+    left: 0%;
+    color:white;
+    font-size: 2vw;
+    z-index: 1;
+    transform: translate(10%, -200%);
+    background-color: transparent;
+    font-family: 'Open-Sans', sans-serif;
+    font-weight: 700;
+}
+
+.movies .join-now {
+   /* padding:3px 10px;*/
+    background-color: rgb(40, 201, 171);
+    font-size: 1.2vw;
+    font-weight: 600;
+    left:50%;
+    top:50%;
+    position: absolute;
+    height: 5vh;
+    width:7vw;
+    transform: translate(-550%, 170%);
+    z-index: 1;
+    border-radius: 90px;
+    font-family: 'Open-Sans', sans-serif;
+
+}
+
+
+.movies .join-now:hover {
+    background-color: rgb(0, 255, 208);
+    transition: all 0.5s ease 0s;
+    color:rgb(0, 0, 0);
+    box-shadow: inset 0px 0px 20px 0.5px rgb(0, 0, 0);
+}
+
+.recom {
+    position:relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:120px;
+
+}
+
+.recom .banner {
+    font-size: 4vw;
+    left:50%;
+    top:50%;
+    color:white;
+    text-align: center;
+    font-family: "Fugaz One";
+    margin-top: 4%;   
+}
+
+.recom .short-note {
+    text-align: center;
+    color: #adadad;
+    font-size: 1.4vw;
+    margin-top:1%;
+    margin-bottom:5%;
+}
+
+.recom .img-gallery {
+    align-items: center;
+    display: flex;
+    margin-left:2vw;
+    margin-right:2vw;
+    
+
+}
+
+.img1{
+    width:15vw;
+    height:auto;
+    border-radius: 10px;
+    margin:2vw;
+}
+
+.hero-tag {
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-family: "Jersey 20";
+    font-size: 1.7vw;
+    margin-left:3.6vw;
+}
+
+.hero-tag:hover {
+    text-decoration: underline;
+}
+
+
+.black-tag {
+    text-decoration: none;
+    color:white;
+    font-family: "Jersey 20";
+    font-size: 1.7vw;
+    margin-left: 5.4vw;
+}
+
+.black-tag:hover {
+    text-decoration: underline;
+}
+
+.punch-tag {
+    text-decoration: none;
+    color:white;
+    font-family: "Jersey 20";
+    font-size: 1.7vw;
+    margin-left:6vw;
+}
+
+.punch-tag:hover {
+    text-decoration: underline;
+}
+
+.stone-tag {
+    text-decoration: none;
+    color:white;
+    font-family: "Jersey 20";
+    font-size: 1.7vw;
+    margin-left:7vw;
+}
+
+.stone-tag:hover { 
+    text-decoration: underline;
+}
+
+.zoom-tag {
+    text-decoration: none;
+    color:white;
+    font-family: "Jersey 20";
+    font-size: 1.7vw;
+    margin-left:6vw;
+
+}
+
+.zoom-tag:hover {
+    text-decoration: underline;
+}
+
+
+
+.credit {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+
+.credit .name {
+    margin:2vw;
+    width:540px;
+    height:540px;
+    text-align: center;
+    background-color: #000000;
+    border:1px solid rgb(47, 238, 255);
+    margin-top: 50px;
+}
+
+.name-text {
+    margin-top: 230px;
+    color:white;
+    font-family: "Inter";
+    font-size:1.375vw;
+    background-color: #000000;
+}
+
+.small-text {
+    color:#D4D4D8;
+    font-family: "Inter";
+    font-size:0.875vw;
+    margin-top:16px;
+    background-color: #000000;
+    
+}
+
+.video1 {
+    background-color: #000000;
+}
+
+.video1 video {
+    width: 50vw;
+    height: 90vh;
+    border-radius: 20%;
+    margin-left: 2vw;
+    margin-top:4vh;
+    background-color: #000000;
+}
+
+.cinema {
+    align-items: center;
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+}
+
+.cinema .cinema-name {
+    text-align: center;
+    color:white;
+    font-size: 3.1875vw;
+    font-family: "Fugaz One";
+}
+
+.cinema .cinema-title {
+    text-align: center;
+    color:#adadad;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 0.875vw;
+}
+
+.cinema-images {
+    display: flex;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 2.5vw;
+}
+
+.cinema-image1 {
+    border:2px solid rgb(47, 238, 255);
+    width: 23.3333375vw;
+    width: 100%;
+    height: auto 158px;
+    /* height: 15.875vh; */
+    margin-left:1vw;
+    margin-right: 1vw;;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(47, 238, 255);
+}
+
+.cinema-image1 .img-1 {
+    margin-top: 2vh;
+    margin-bottom: 0.5vh;
+    background-color: transparent;
+}
+
+.cinema-image1 .img-text {
+    color:rgb(0, 0, 0);
+    font-size:1.125vw;
+    background-color: rgb(47, 238, 255);
+    font-family: "Inter";
+    margin-bottom: 0.5vh;
+    font-weight: 600;
+}
+
+.cinema-image1 .img-title {
+    color:#000000;
+    font-size: 0.875vw;
+    font-weight:400;
+    font-family: "Inter";
+    background-color: rgb(47, 238, 255);
+    margin-bottom: 2vw;
+
+}
+
+
+
+.type-with-newsletter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 64px 102px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+    z-index: 0;
+    background-color: #000000; 
+  }
+  
+  .type-with-newsletter .content-2 {
+    display: flex;
+    align-items: center;
+    margin-left:10%;
+    margin-right:10%;
+    gap: 40px 190px;
+    position: relative;
+    background-color: #000000;
+  }
+  
+.footer-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #000000;
+  }
+  
+  .footer-bar .content-2 {
+    display: flex;
+    align-items: center;
+    margin-right:10%;
+    gap: 40px 190px;
+    position: relative;
+    background-color: #000000;
+  }
+  
+  .content-2 .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    background-color: #000000;
+  }
+  
+   .list .list-head {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Rubik", Helvetica;
+    font-weight: 600;
+    color: #eeeeee;
+    font-size: 18px;
+    line-height: 25.2px;
+    background-color: #000000;
+    text-decoration: none;
+  }
+  
+  .list .list-links {
+    position: relative;
+    width: fit-content;
+    font-family: "Rubik", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+    background-color: #000000;
+  }
+  
+  
+  .banner2 {
+    color:white;
+    font-size: 4vw;
+    text-align: center;
+    font-family: "Fugaz One";
+    margin-top: 160px;
+  
+  }
+  
+  .banner-down {
+    text-align:center;
+    color:#adadad;
+    font-family: "open sans";
+    margin-top:12px;
+    font-size: 1.3vw;
+  }
+  

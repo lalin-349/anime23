@@ -1,0 +1,347 @@
+* {
+    background-color: #222831;
+    margin:0;
+    padding:0;
+}
+
+
+
+.LAnime2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #222831;
+  }
+  
+  
+  
+  
+  .bubble .bubble-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 8px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #222831;
+    border-radius: 64px
+  
+  }
+  
+  .bubble .nav-links {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 0px 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .bubble .nav-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 8px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+  .bubble .nav-label {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Rubik", Helvetica;
+    font-weight: 600;
+    color: #eeeeee;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 19.2px;
+    white-space: nowrap;
+    border: 2px solid rgb(51, 49, 49);
+    padding: 6px;
+    border-radius:10px;
+    background-color: black;
+    padding-left: 9px;
+    padding-right:9px;
+  }
+  .bubble .nav-label:hover {
+    color:rgb(40, 201, 171);
+    border:2px solid rgb(40, 201, 171);
+  
+  }
+  
+  .bubble .nav-label {
+    transition: all 1s ease 0s;
+  }
+  
+  .bubble .brand {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: absolute;
+    top: 14px;
+    left: 560px;
+  }
+  
+  .bubble .brand-name {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #EEE;
+    font-family: "Sedgwick Ave Display";
+    font-size:2.5vw;
+    line-height: 208%; /* 49.92px */
+    margin-left: 90%;
+  }
+
+  .head {
+    width: 100%;
+    background-color: black;
+    padding-top: 16.44vh;
+    padding-bottom: 16.59vh;
+    align-items: center;
+    text-align: center;
+  }
+  .header-text {
+    width: 100%;
+    color:white;
+    font-size: 108px;
+    font-family: "Playfair Display";
+    font-weight: 900;
+    text-align: center;
+    background-color: transparent;
+  }
+
+  .small-text {
+    background-color: transparent;
+    color:white;
+    margin-top: 2.34vh;
+    color: #D0DBD6;
+    font-size: 22px;
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    line-height: 30.80px;
+  }
+
+  .contact-box {
+    display: flex;
+    
+  }
+
+
+  .contact-box .img{
+    height: 117.91vh;
+    width: 53.85vw;
+    object-fit: cover;
+    
+  }
+
+  .contact-info {
+    background-color: black;
+    width: 50%;
+  }
+
+  .tag-box{
+    height: 117.91vh;
+    width: 30vw;
+    background-color: black;
+    position: absolute;
+    left: 55%;
+  }
+
+  .tag-box .tag-1{
+    font-size: 56px;
+    font-family: "Playfair Display";
+    font-weight: 900;
+    color:white;
+    background-color: transparent;
+    margin-top:  11.74vh;
+    text-align: left;
+    
+  }
+
+  .tag-box .tag-2 {
+    color: #F7FFFB;
+    font-size: 22px;
+    font-family: "Source Sans 3";
+    font-weight: 400;
+    background-color: transparent;
+    margin-top: 2.34vh;
+    line-height: 30.80px;
+    word-wrap: break-word;
+  }
+
+  .tag-box .tag-3 {
+    background-color: transparent;
+    color:white;
+    margin-top: 4.69vh;
+    font-family: "Source Sans 3";
+    font-size: 14px;
+}
+
+.tag-box .tag-4 {
+    height: 8.22vh;
+    width:  35.13vw;
+    color:white;
+    margin-top: 0.987vh;
+    font-size: 17px;
+    font-family: "Source Sans 3";
+    border-radius: 8px;
+}
+
+.tag-box .tag-3-1 {
+    background-color: transparent;
+    color:white;
+    margin-top: 4.69vh;
+    font-family: "Source Sans 3";
+    font-size: 14px;
+}
+
+.tag-box .tag-4-1 {
+    height: 25.55vh;
+    width:  35.13vw;
+    color:white;
+    margin-top: 0.987vh;
+    font-size: 17px;
+    font-family: "Source Sans 3";
+    border-radius: 8px;
+
+}
+
+.button-contact{
+    background-color: #2aa395;
+    width: 22.5vw;
+    height: 3.5625vw;
+    font-size:1.125vw;
+    font-weight: 600;
+    color: white;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-family: "Source Sans 3";
+}
+
+.button-contact:hover {
+    background-color: #37CFBE;
+    transition: all 0.8s ease 0s;
+    color: black;
+}
+
+.social-media {
+    width: 100%;
+    height: 30.54vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media .social-apps {
+    width:84.33vw;
+    height: 7.048vh;
+
+    
+}
+
+.apps {
+    width:84.33vw;
+    height: 7.048vh;
+
+    display: flex;
+    align-items: center;
+    margin-left: 8vw;    
+}
+
+.apps .insta-logo {
+    width: 3vw;
+    height: 6vh;
+    background-color: transparent;
+
+}
+
+.app-text {
+    color:white;
+    background-color: transparent;
+    font-size: 900;
+    font-family: "Noto Sans";
+    margin-left: 1vw;
+}
+
+.apps .twitter-logo {
+    width: 3vw;
+    height: 6vh;
+    background-color: transparent;
+    margin-left: 21vw;
+
+}
+
+.app-text {
+    color:white;
+    background-color: transparent;
+    font-size: 900;
+    font-family: "Noto Sans";
+    margin-left: 1vw;
+}
+
+
+ 
+.footer-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 102px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-color: #000000;
+  }
+  
+  .footer-bar .content-2 {
+    display: flex;
+    align-items: center;
+    margin-left:10%;
+    margin-right:10%;
+    gap: 40px 190px;
+    position: relative;
+    background-color: #000000;
+    text-align: center;
+  }
+  
+  .content-2 .list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    background-color: #000000;
+  }
+  
+   .list .list-head {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Rubik", Helvetica;
+    font-weight: 600;
+    color: #eeeeee;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+    white-space: nowrap;
+    background-color: #000000;
+  }
+  
+  .list .list-links {
+    position: relative;
+    width: fit-content;
+    font-family: "Rubik", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+    background-color: #000000;
+  }
+  
